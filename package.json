@@ -1,0 +1,33 @@
+{
+  "name": "release-tools",
+  "description": "Command line scripts to tag versions",
+  "version": "1.0.0",
+  "preferGlobal": true,
+  "bin": {
+    "release-tools": "./bin/index.js"
+  },
+  "author": "Luis Meneses",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imenesesl/release-tools.git"
+  },
+  "keywords": [
+    "tag",
+    "version",
+    "release",
+    "git"
+  ],
+  "bugs": {
+    "url": "https://github.com/imenesesl/cross-web-components/issues"
+  },
+  "homepage": "https://github.com/imenesesl/cross-web-components#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^6.0.0",
+    "exec-sh": "^0.3.2",
+    "inquirer": "^6.2.0",
+    "maven": "^5.0.0",
+    "semver": "^5.6.0"
+  }
+}
