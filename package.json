@@ -1,7 +1,7 @@
 {
   "name": "release-tools",
   "description": "Command line scripts to tag versions",
-  "version": "1.0.1-SNAPSHOT.0",
+  "version": "1.0.1",
   "preferGlobal": true,
   "bin": {
     "release-tools": "./bin/index.js"
